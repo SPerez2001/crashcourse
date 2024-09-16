@@ -29,7 +29,7 @@ namespace crashcourse
             override public void whatdoesthecatsay()
             {
                 Console.WriteLine("Mr. Chief Face The Camera....");
-            }"adasd"
+            }
         }
     }
 }
