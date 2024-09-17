@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using crashcourse;
+using static crashcourse.polymorph;
 
 //helloworld.helloworld1();
 //variables.datatypes();
@@ -53,8 +54,24 @@ using crashcourse;
 
 //encap.FullScript();
 
-polymorph.Cat1 cat1 = new polymorph.Cat1();
-polymorph.Cat2 cat2 = new polymorph.Cat2();
+//polymorph.Cat1 cat1 = new polymorph.Cat1();
+//polymorph.Cat2 cat2 = new polymorph.Cat2();
 
-cat1.whatdoesthecatsay();
-cat2.whatdoesthecatsay();
+//cat1.whatdoesthecatsay();
+//cat2.whatdoesthecatsay();
+
+//abstractionclass.Melon cats1 = new abstractionclass.Melon();
+//abstractionclass.French cats2 = new abstractionclass.French();
+//cats1.whatdoesthecatsay();
+//cats2.whatdoesthecatsay();
+
+//exceptionclass.exceptionhandling();
+listclass.collectionslist();
+
+public class MailService
+{
+    public void OnVideoEncoded(object source, EventArgs e) 
+    {
+        Console.WriteLine("MailService: Sending an Email....");
+    }
+}
