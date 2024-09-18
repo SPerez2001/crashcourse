@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using crashcourse;
+using System.ComponentModel.DataAnnotations;
 using static crashcourse.polymorph;
 
 //helloworld.helloworld1();
@@ -66,12 +67,30 @@ using static crashcourse.polymorph;
 //cats2.whatdoesthecatsay();
 
 //exceptionclass.exceptionhandling();
-listclass.collectionslist();
+//listclass.collectionslist();
 
-public class MailService
-{
-    public void OnVideoEncoded(object source, EventArgs e) 
-    {
-        Console.WriteLine("MailService: Sending an Email....");
-    }
-}
+//var num1 = new delegateclass.PickedNum1() { NumberP1 = 2 };
+//var num2 = new delegateclass.PickedNum2() { NumberP2 = 3 };
+//var rando = new delegateclass.RadomNumberWinner();
+//var thechosen = new TheChosen();
+
+//rando.WinnerPick += thechosen.OnWinnerPick;
+//rando.Random1(num1,num2);
+
+//public class TheChosen
+//{
+//    public void OnWinnerPick(object source, EventArgs e) 
+//    {
+//        Console.WriteLine("The Winner is = " + source);
+//    }
+//}
+await Task.Delay(2000);
+asynchclass.MemeDialogue1();
+
+await Task.Delay(5000);
+asynchclass.MemeDialogue2();
+
+await Task.Delay(7000);
+asynchclass.MemeDialogue3();
+
+
