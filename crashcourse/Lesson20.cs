@@ -180,7 +180,7 @@ namespace crashcourse
             }
             static void names(string name1)
             {
-                Console.WriteLine("Is " + name1 + "the only person you know? thats tragic");
+                Console.WriteLine("Is " + name1 + "the only person you know? thats tragic....");
             }
             static void names(string name1, string name2)
             {
