@@ -8,9 +8,14 @@ namespace crashcourse
 {
     class stringsclass
     {
-        static void Main(string[] args) 
+        public static void Main() 
         {
-            
+            string meme1 = "Today-    " + "What is that? ..." + "What is that?.....";
+            Console.WriteLine(meme1);
+            Console.WriteLine("Contains: " + meme1.Contains("What"));
+            Console.WriteLine("string[]: " + meme1[2]);
+            Console.WriteLine("Index Of: " + meme1.IndexOf("Today"));
+            Console.WriteLine("Substring: " + meme1.Substring(10));
         }
     }
 }

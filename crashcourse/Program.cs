@@ -84,13 +84,16 @@ using static crashcourse.polymorph;
 //        Console.WriteLine("The Winner is = " + source);
 //    }
 //}
-await Task.Delay(2000);
-asynchclass.MemeDialogue1();
+//await Task.Delay(2000);
+//asynchclass.MemeDialogue1();
 
-await Task.Delay(5000);
-asynchclass.MemeDialogue2();
+//await Task.Delay(5000);
+//asynchclass.MemeDialogue2();
 
-await Task.Delay(7000);
-asynchclass.MemeDialogue3();
+//await Task.Delay(7000);
+//asynchclass.MemeDialogue3();
 
 
+//stringsclass.Main();
+
+Lesson20.finalproj();
